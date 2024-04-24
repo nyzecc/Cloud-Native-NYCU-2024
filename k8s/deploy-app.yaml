@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app-container
-          image: ghcr.io/linroex/app:latest
+          image: ghcr.io/nyzecc/cloudnative:latest
           ports:
             - containerPort: 3000
           resources:
